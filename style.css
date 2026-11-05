@@ -1,0 +1,146 @@
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(7, 150, 2, 0.397);
+    padding: 5px;
+
+}
+
+a {
+    color: rgb(0, 0, 0);
+}
+
+.apresentacao {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 40px;
+    margin: 20px auto;
+    background-color: rgb(252, 213, 166);
+}
+
+.apresentacao_Conteudo {
+    flex: 1;
+}
+
+.apresentacao_Conteudo h1 {
+    color: blue;
+    margin-bottom: 15px;
+}
+
+.apresentacao_Conteudo p {
+    color: rgb(0, 34, 255);
+    line-height: 1.6;
+}
+
+.apresentacao_imagem {
+    max-width: 100%;
+    height: auto;
+}
+
+.secao-destaques {
+    margin: 40px auto;
+    max-width: 1200px;
+    padding: 0 20px;
+}
+
+.secao-destaques h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 1.8rem;
+    color: #1b4332;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    position: relative;
+    width: 250px;
+    padding: 15px;
+    border: 2px solid #52b788;
+    border-radius: 10px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 12px;
+}
+
+.card h3 {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    color: #2d6a4f;
+}
+
+.card p {
+    font-size: 0.9rem;
+    color: #555555;
+    margin-bottom: 15px;
+    flex-grow: 1;
+}
+
+.card__link {
+    color: #1b4332;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #d8f3dc;
+    padding: 8px 14px;
+    border-radius: 4px;
+    transition: background-color 0.2s ease;
+}
+
+.card__link:hover {
+    background-color: #52b788;
+    color: #ffffff;
+}
+
+.etiqueta-destaque {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #d32f2f;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 11px;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+.tag-destaque {
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    background-color: #d90429;
+    color: #ffffff;
+    font-size: 0.75rem;
+    font-weight: bold;
+    padding: 4px 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.caixa-topo{
+    width: 91px;
+    position:sticky;
+    background-color: #52b788;
+    bottom: 20px;
+}
+
+.Devs {
+    text-align: center;
+}
